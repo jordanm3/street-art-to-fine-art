@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+	Transit by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Art: Recommendations</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/skel.min.js"></script>
+		<script src="static/js/skel-layers.min.js"></script>
+		<script src="static/js/init.js"></script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<noscript>
+			<link rel="stylesheet" href="static/css/skel.css" />
+			<link rel="stylesheet" href="static/css/style.css" />
+			<link rel="stylesheet" href="static/css/style-xlarge.css" />
+		</noscript>
+	</head>
+	
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="127.0.0.1:5000">StreettoFineArt</a></h1>
+				<nav id="nav">
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+				<header class="major">
+					<h3>Uploaded image:</h3>
+					<img src={{ original_image }}>
+					<p>&nbsp;</p>
+					<hr>
+					<h3>Similar fine art to explore:</h3>
+					
+					{% for item in artwork0 %}
+      					<br>
+      					{{ item }}
+      					<br>
+  					{% endfor %}
+
+					<img src={{ rec0_image }}>
+					<p>{{ rec0_artist }}<br>
+					<i>{{ rec0_title }}</i>, {{ rec0_date }}<br>
+					{{ rec0_medium }}<br>
+					<a href={{ rec0_page }}>Click here to learn more</a>
+					<!-- &nbsp;  &bullet;&nbsp;  Use this as your test image --> <br>&nbsp;</p>
+
+					<img src={{ rec1_image }}>
+					<p>{{ rec1_artist }}<br>
+					<i>{{ rec1_title }}</i>, {{ rec1_date }}<br>
+					{{ rec1_medium }}<br>
+					<a href={{ rec1_page }}>Click here to learn more</a>
+					<!-- &nbsp;  &bullet;&nbsp;  Use this as your test image --> <br>&nbsp;</p>
+
+					<img src={{ rec2_image }}>
+					<p>{{ rec2_artist }}<br>
+					<i>{{ rec2_title }}</i>, {{ rec2_date }}<br>
+					{{ rec2_medium }}<br>
+					<a href={{ rec2_page }}>Click here to learn more</a>
+					<!-- &nbsp;  &bullet;&nbsp;  Use this as your test image --> <br>&nbsp;</p>
+
+					<hr>
+					<h3><a href='/'>Upload a different image</a></h3>
+				</header>
+
+
+				</div>
+				<div class="container">
+
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+								<li>Design: <a href="http://templated.co">Templated</a></li>
+							</ul>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<ul class="icons">
+								<li>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+	</body>
+</html>

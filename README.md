@@ -1,4 +1,4 @@
-# Street Art to Fine Art: Art recommendation using deep learning
+# Street Art to Fine Art: *Art Recommendation using Deep Learning*
 
 April 2020
 

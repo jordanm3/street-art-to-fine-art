@@ -1,5 +1,6 @@
-# Street Art to Fine Art: *Art Recommendation using Deep Learning*
+   # Street Art to Fine Art: *Art Recommendation using Deep Learning*
 
+[Michael Jordan](https://www.linkedin.com/in/michaeljoshuajordan/)  
 April 2020
 
 <p align="center">

@@ -1,10 +1,21 @@
-# Street Art to Fine Art
-Art recommendation using deep learning
+# Street Art to Fine Art: Art recommendation using deep learning
 
 April 2020
 
-Video presentation: 
+Video presentation demonstrating the recommendation tool in action:
 
-<a href= /></a>
+<a href="https://www.youtube.com/watch?v=VMcK-Z3naK4&feature=youtu.be" target="_blank"><img src="https://cdn.buttercms.com/jq9R20pTEmusaIsCE3TU" 
+alt="Street Art to Fine Art" width="480" height="360" border="10" /></a>
 
-The goal of this project
+## Table of Contents
+* [Overview and Motivation](#overview-and-motivation)
+* [Methodology](#methodology)
+* [Results]
+* [Conclusion]
+* [Acknowledgments]
+
+## Overview and Motivation
+- For this project, my motivation was to develop a recommendation tool that could take a user-uploaded image of street art and return images of fine art, along with relevant information about the artwork, that are most visually similar. 
+
+## Methodology 
+

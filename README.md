@@ -40,9 +40,17 @@ Implementation of this project involved:
       c. [Results page](https://github.com/jordanm3/street-art-to-fine-art/blob/master/flask_files/results.html)
 
 ## Tools and Technologies
+- Key python libraries:  
+      a. Pandas (Metadata cleaning and manipulation)  
+      b. BeautifulSoup (Image and metadata scraping)  
+      c. Matplotlib (Visualizations)  
+      d. Keras (Autoencoder model)
+
+- Google Cloud Platform (Data storage and model training)
 
 ## Acknowledgments
 - The work for this project was done as my capstone for the [Metis Data Science Bootcamp](https://www.thisismetis.com/data-science-bootcamps) and could not have been done without the support and guidance of my instructors and cohort.
+
 - The images and metadata for the fine art corpus were obtained using the following resources associated with public APIs:  
       a. [The Met](https://github.com/metmuseum/openaccess)  
       b. [MoMA](https://github.com/MuseumofModernArt/collection) 

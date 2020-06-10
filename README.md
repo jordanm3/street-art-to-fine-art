@@ -17,7 +17,7 @@ alt="Street Art to Fine Art" width="480" height="360" border="10" /></a>
 * [Methodology](#methodology)
 * [Results](#results)
 * [Conclusion](#conclusion)
-* [Acknowledgments](#ackowledgments)
+* [Acknowledgments](#acknowledgments)
 
 ## Overview and Motivation
 - For this project, my motivation was to develop a recommendation tool that could take a user-uploaded image of street art and return images of fine art, along with relevant information about the artwork, that are most visually similar. 
@@ -41,7 +41,6 @@ Implementation of this project involved:
 
 ## Acknowledgments
 - The work for this project was done as my capstone for the [Metis Data Science Bootcamp](https://www.thisismetis.com/data-science-bootcamps) and could not have been done without the support and guidance of my instructors and cohort.
-- The images and metadata for the fine art corpus were obtained using the following resources associated with public APIs:   
-      a. [The Met](https://github.com/metmuseum/openaccess) 
+- The images and metadata for the fine art corpus were obtained using the following resources associated with public APIs:  
+      a. [The Met](https://github.com/metmuseum/openaccess)  
       b. [MoMA](https://github.com/MuseumofModernArt/collection) 
-- CSS styling sheets 

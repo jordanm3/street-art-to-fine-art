@@ -27,7 +27,13 @@ Implementation of this project involved:
 
 1. Build a corpus of 35,000+ images and metadata using the public APIs from the following sources:   
       a. [The Metropolitan Museum of Art (The Met)](https://github.com/jordanm3/street-art-to-fine-art/blob/master/data_collection/met_data.ipynb)  
-      b. [The Museum of Modern Art (MoMA)]
+      b. [The Museum of Modern Art (MoMA)](https://github.com/jordanm3/street-art-to-fine-art/blob/master/data_collection/moma_data.ipynb)
+
+2. [Create a single master dataframe containing the metadata from the images scraped from both The Met and MoMA.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/data_collection/metadata_final.ipynb)
+
+3. Train a convolutional neural network autoencoder. Perform dimensionality reduction by taking the images of my corpus and passing them through 3 convolutional and pooling layers that learn the image’s features. Produce a narrow encoded layer that contains the lowest possible dimensions of the input data, allowing comparison between images to be computationally feasible.(https://github.com/jordanm3/street-art-to-fine-art/blob/master/models/autoencoder_model.ipynb)
+
+4. Use the narrow encoded layer to encode the corpus of fine art images and a test street art image, resulting in a set of feature tensors. Use cosine similarity to compare the street art image to every fine art image in the corpus to find the most visually similar matches.(https://github.com/jordanm3/street-art-to-fine-art/blob/master/models/image_comparison.ipynb) 
 
 ## Results
 

@@ -15,8 +15,7 @@ alt="Street Art to Fine Art" width="480" height="360" border="10" /></a>
 ## Table of Contents
 * [Overview and Motivation](#overview-and-motivation)
 * [Methodology](#methodology)
-* [Results](#results)
-* [Conclusion](#conclusion)
+* [Tools and Technologies](#tools-and-technologies)
 * [Acknowledgments](#acknowledgments)
 
 ## Overview and Motivation
@@ -35,9 +34,7 @@ Implementation of this project involved:
 
 4. Use the narrow encoded layer to encode the corpus of fine art images and a test street art image, resulting in a set of feature tensors. Use cosine similarity to compare the street art image to every fine art image in the corpus to find the most visually similar matches. [Code found here.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/models/image_comparison.ipynb) 
 
-## Results
-
-## Conclusion
+## Tools and Technologies
 
 ## Acknowledgments
 - The work for this project was done as my capstone for the [Metis Data Science Bootcamp](https://www.thisismetis.com/data-science-bootcamps) and could not have been done without the support and guidance of my instructors and cohort.

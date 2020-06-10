@@ -23,6 +23,11 @@ alt="Street Art to Fine Art" width="480" height="360" border="10" /></a>
 - For this project, my motivation was to develop a recommendation tool that could take a user-uploaded image of street art and return images of fine art, along with relevant information about the artwork, that are most visually similar. 
 
 ## Methodology 
+Implementation of this project involved: 
+
+1. Build a corpus of 35,000+ images and metadata using the public APIs from the following sources:   
+      a. [The Metropolitan Museum of Art (The Met)]  
+      b. [The Museum of Modern Art (MoMA)]
 
 ## Results
 

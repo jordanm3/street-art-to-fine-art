@@ -29,7 +29,7 @@ Implementation of this project involved:
       a. [The Metropolitan Museum of Art (The Met)](https://github.com/jordanm3/street-art-to-fine-art/blob/master/data_collection/met_data.ipynb)  
       b. [The Museum of Modern Art (MoMA)](https://github.com/jordanm3/street-art-to-fine-art/blob/master/data_collection/moma_data.ipynb)
 
-2. Create a single master dataframe containing the metadata from the images scraped from both The Met and MoMA. [Code for this step can be found here.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/data_collection/metadata_final.ipynb)
+2. Create a single master dataframe containing the metadata from the images scraped from both The Met and MoMA. [Code found here.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/data_collection/metadata_final.ipynb)
 
 3. Train a convolutional neural network autoencoder. Perform dimensionality reduction by taking the images of my corpus and passing them through 3 convolutional and pooling layers that learn the image’s features. Produce a narrow encoded layer that contains the lowest possible dimensions of the input data, allowing comparison between images to be computationally feasible. [Code found here.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/models/autoencoder_model.ipynb)
 
@@ -40,4 +40,8 @@ Implementation of this project involved:
 ## Conclusion
 
 ## Acknowledgments
-
+- The work for this project was done as my capstone for the [Metis Data Science Bootcamp](https://www.thisismetis.com/data-science-bootcamps) and could not have been done without the support and guidance of my instructors and cohort.
+- The images and metadata for the fine art corpus were obtained using the following resources associated with public APIs:   
+      a. [The Met](https://github.com/metmuseum/openaccess) 
+      b. [MoMA](https://github.com/MuseumofModernArt/collection) 
+- CSS styling sheets 

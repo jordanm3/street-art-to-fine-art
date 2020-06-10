@@ -34,7 +34,7 @@ Implementation of this project involved:
 
 4. Use the narrow encoded layer to encode the corpus of fine art images and a test street art image, resulting in a set of feature tensors. Use cosine similarity to compare the street art image to every fine art image in the corpus to find the most visually similar matches. [Code found here.](https://github.com/jordanm3/street-art-to-fine-art/blob/master/models/image_comparison.ipynb) 
 
-5. Develop a Flask web application that allows a user to upload an image of street art from their computer. The app then returns the top 3 pieces of fine art that the autoencoder model determines are the best matches. Files used in the app include:  
+5. Develop a Flask web application that allows a user to upload an image of street art from their computer. Return the top 3 pieces of fine art that the autoencoder model determines are the best matches. Files used in the app include:  
       a. [Flask python code](https://github.com/jordanm3/street-art-to-fine-art/blob/master/flask_files/imagecomparison.py)  
       b. [Home page](https://github.com/jordanm3/street-art-to-fine-art/blob/master/flask_files/index.html)  
       c. [Results page](https://github.com/jordanm3/street-art-to-fine-art/blob/master/flask_files/results.html)

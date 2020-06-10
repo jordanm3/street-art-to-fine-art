@@ -48,9 +48,11 @@ Implementation of this project involved:
 
 - Google Cloud Platform (Data storage and model training)
 
+- Flask (Web framework for app)
+
 ## Acknowledgments
 - The work for this project was done as my capstone for the [Metis Data Science Bootcamp](https://www.thisismetis.com/data-science-bootcamps) and could not have been done without the support and guidance of my instructors and cohort.
 
-- The images and metadata for the fine art corpus were obtained using the following resources associated with public APIs:  
+- The images and metadata for the fine art corpus were obtained using the following resources:  
       a. [The Met](https://github.com/metmuseum/openaccess)  
       b. [MoMA](https://github.com/MuseumofModernArt/collection) 

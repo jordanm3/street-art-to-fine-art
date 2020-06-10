@@ -26,7 +26,7 @@ alt="Street Art to Fine Art" width="480" height="360" border="10" /></a>
 Implementation of this project involved: 
 
 1. Build a corpus of 35,000+ images and metadata using the public APIs from the following sources:   
-      a. [The Metropolitan Museum of Art (The Met)](met_data.ipynb)  
+      a. [The Metropolitan Museum of Art (The Met)](https://github.com/jordanm3/street-art-to-fine-art/blob/master/data_collection/met_data.ipynb)  
       b. [The Museum of Modern Art (MoMA)]
 
 ## Results
